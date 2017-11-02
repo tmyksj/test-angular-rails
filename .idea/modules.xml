@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AngularModule/AngularModule.iml" filepath="$PROJECT_DIR$/AngularModule/AngularModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RailsModule/RailsModule.iml" filepath="$PROJECT_DIR$/RailsModule/RailsModule.iml" />
+    </modules>
+  </component>
+</project>

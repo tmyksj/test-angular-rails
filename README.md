@@ -1,9 +1,14 @@
 # AngularModule
-## Run angular
+## Run angular (Development)
+```
+cd AngularModule
+npm start
+```
+
 ## Details
 
 # RailsModule
-## Run rails
+## Run rails (Development)
 ```
 cd RailsModule
 rbenv exec bundle install

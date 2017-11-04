@@ -10,4 +10,5 @@ import { CookieService } from "./cookie.service";
     CookieService,
   ]
 })
-export class SharedModule { }
+export class SharedModule {
+}

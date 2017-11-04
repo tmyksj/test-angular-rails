@@ -14,4 +14,5 @@ const tokensRoutes: Routes = [
     RouterModule
   ]
 })
-export class TokensRoutingModule { }
+export class TokensRoutingModule {
+}

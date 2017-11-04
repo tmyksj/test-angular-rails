@@ -23,4 +23,5 @@ import { TokensModule } from "./tokens/tokens.module";
     AppComponent,
   ]
 })
-export class AppModule { }
+export class AppModule {
+}

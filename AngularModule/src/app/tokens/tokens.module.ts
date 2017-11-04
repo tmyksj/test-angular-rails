@@ -20,4 +20,5 @@ import { TokensService } from "./shared/tokens.service";
     TokensService,
   ]
 })
-export class TokensModule { }
+export class TokensModule {
+}

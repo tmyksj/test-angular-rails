@@ -14,4 +14,5 @@ const routes: Routes = [
     RouterModule,
   ]
 })
-export class TasksRoutingModule { }
+export class TasksRoutingModule {
+}

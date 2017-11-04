@@ -1,3 +1,12 @@
-<p>
-  tasks works!
-</p>
+<section>
+  <ul>
+    <li *ngFor="let task of tasks">
+      <div>
+        {{task.subject}} (id: {{task.id}})
+      </div>
+      <div>
+        {{task.details}}
+      </div>
+    </li>
+  </ul>
+</section>

@@ -5,7 +5,8 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class CookieService {
 
-  constructor() { }
+  constructor() {
+  }
 
   getItem(sKey): string {
     if (!sKey || !this.hasItem(sKey)) { return null; }

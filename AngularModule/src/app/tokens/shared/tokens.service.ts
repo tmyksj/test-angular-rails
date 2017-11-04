@@ -11,7 +11,7 @@ export class TokensService {
   constructor(private http: HttpClient, private cookieService: CookieService) {
   }
 
-  public authenticate(username: string, password: string): Observable<any> {
+  authenticate(username: string, password: string): Observable<any> {
     let observable: Observable<any> = this.http.post(this.url, {
       username: username,
       password: password
@@ -29,11 +29,11 @@ export class TokensService {
     return observable;
   }
 
-  public getToken(): string {
+  getToken(): string {
     return this.cookieService.getItem(this.cookieKey);
   }
 
-  public deleteToken(): Observable<any> {
+  deleteToken(): Observable<any> {
     let observable: Observable<any> = this.http.delete(this.url, {
       params: {
         authentication_token: this.getToken()

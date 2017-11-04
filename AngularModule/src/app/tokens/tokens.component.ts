@@ -15,7 +15,7 @@ export class TokensComponent implements OnInit {
 
   constructor(private tokensService: TokensService, private router: Router) {
     this.hasErrors = false;
-    this.model = new AuthenticationInfo('', '');
+    this.model = new AuthenticationInfo();
   }
 
   ngOnInit(): void {

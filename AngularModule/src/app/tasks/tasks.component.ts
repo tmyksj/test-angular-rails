@@ -20,7 +20,7 @@ export class TasksComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if (this.tokensService.getToken() == null) {
+    if (!this.tokensService.hasToken()) {
       this.router.navigateByUrl('/tokens');
       return;
     }

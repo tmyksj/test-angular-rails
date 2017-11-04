@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   # protect_from_forgery with: :exception
 
   # http://web-salad.hateblo.jp/entry/2015/05/03/170754
-  ACCESS_CONTROL_ALLOW_METHODS = %w(GET OPTIONS).freeze
+  ACCESS_CONTROL_ALLOW_METHODS = %w(GET DELETE OPTIONS).freeze
   ACCESS_CONTROL_ALLOW_HEADERS = %w(Accept Origin Content-Type).freeze
   ACCESS_CONTROL_MAX_AGE = 86400
 

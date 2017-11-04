@@ -33,6 +33,10 @@ export class TokensService {
     return this.cookieService.getItem(this.cookieKey);
   }
 
+  hasToken(): boolean {
+    return this.getToken() != null;
+  }
+
   deleteToken(): Observable<any> {
     let observable: Observable<any> = this.http.delete(this.url, {
       params: {

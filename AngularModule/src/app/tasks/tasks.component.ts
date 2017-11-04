@@ -11,18 +11,24 @@ import { TokensService } from "../tokens/shared/tokens.service";
 })
 export class TasksComponent implements OnInit {
   tasks: Task[];
+  model: Task;
 
   constructor(private tasksService: TasksService,
               private tokensService: TokensService,
               private router: Router) {
+    this.model = new Task();
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     if (this.tokensService.getToken() == null) {
       this.router.navigateByUrl('/tokens');
       return;
     }
 
+    this.updateTasks();
+  }
+
+  updateTasks(): void {
     this.tasksService.getTasks().subscribe(data => {
       this.tasks = [];
 
@@ -33,6 +39,12 @@ export class TasksComponent implements OnInit {
         task.details = taskData['details'];
         this.tasks.push(task);
       }
+    });
+  }
+
+  onSubmit(): void {
+    this.tasksService.postTask(this.model).subscribe(data => {
+      this.updateTasks();
     });
   }
 }

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs/Observable";
 import { TokensService } from "../tokens/shared/tokens.service";
+import { Task } from "./task.model";
 
 @Injectable()
 export class TasksService {
@@ -15,6 +16,14 @@ export class TasksService {
       params: {
         authentication_token: this.tokensService.getToken(),
       }
+    });
+  }
+
+  postTask(task: Task): Observable<any> {
+    return this.http.post(this.url, {
+      authentication_token: this.tokensService.getToken(),
+      subject: task.subject,
+      details: task.details,
     });
   }
 }

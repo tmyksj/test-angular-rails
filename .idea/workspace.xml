@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25310566-c0b8-4499-9362-c33c4a9255ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AngularModule/src/app/tasks/task.model.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/about/about-routing.module.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/about/about-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/about/about.component.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/about/about.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/about/about.module.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/about/about.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/app.module.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/shared/cookie.service.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/shared/cookie.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/shared/shared.module.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/shared/shared.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks-routing.module.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks-routing.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/app.component.css" afterPath="$PROJECT_DIR$/AngularModule/src/app/app.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.html" afterPath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.module.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.service.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tokens/shared/authentication-info.model.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tokens/shared/authentication-info.model.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tokens/shared/tokens.service.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tokens/shared/tokens.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tokens/tokens-routing.module.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tokens/tokens-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.component.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.module.ts" afterPath="$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.module.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,43 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tasks.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.module.ts">
+      <file leaf-file-name="tasks.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="423">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task.model.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/task.model.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tasks.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tasks.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tasks.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="891">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -88,18 +54,28 @@
       <file leaf-file-name="tasks.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.css">
+      <file leaf-file-name="tokens.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularModule/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -132,7 +108,6 @@
         <option value="$PROJECT_DIR$/AngularModule/src/app/api.service.ts" />
         <option value="$PROJECT_DIR$/AngularModule/src/app/authentication-token.service.ts" />
         <option value="$PROJECT_DIR$/AngularModule/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/AngularModule/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/AngularModule/src/app/tokens/authentication-info.ts" />
         <option value="$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.component.html" />
         <option value="$PROJECT_DIR$/RailsModule/config/application.rb" />
@@ -158,9 +133,10 @@
         <option value="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.model.ts" />
         <option value="$PROJECT_DIR$/AngularModule/src/app/tasks/task.model.ts" />
         <option value="$PROJECT_DIR$/AngularModule/src/app/tokens/shared/tokens.service.ts" />
+        <option value="$PROJECT_DIR$/AngularModule/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.html" />
-        <option value="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.service.ts" />
         <option value="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.ts" />
+        <option value="$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.service.ts" />
       </list>
     </option>
   </component>
@@ -422,10 +398,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27315000" />
+    <option name="totallyTimeSpent" value="27841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="47" width="1920" height="948" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -436,7 +413,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32555282" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32555282" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923833" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -551,20 +528,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularModule/src/app/about/about.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#0#73#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -592,14 +561,6 @@
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,14 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularModule/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -822,25 +775,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.html">
+    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.service.ts">
+    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tokens/tokens.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="288">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -848,12 +809,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="891">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularModule/src/app/tasks/tasks.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,4 +9,16 @@
       </div>
     </li>
   </ul>
+
+  <form (submit)="onSubmit()">
+    <label>
+      Subject: <input type="text" [(ngModel)]="model.subject" name="subject">
+    </label>
+
+    <label>
+      Details: <textarea [(ngModel)]="model.details" name="details"></textarea>
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
 </section>

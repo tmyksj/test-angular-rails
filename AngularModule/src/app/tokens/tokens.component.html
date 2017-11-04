@@ -1,0 +1,17 @@
+<section>
+  <form (ngSubmit)="onSubmit()">
+    <div [hidden]="!hasErrors">
+      has errors.
+    </div>
+
+    <label>
+      Username: <input type="text" [(ngModel)]="model.username" name="username">
+    </label>
+
+    <label>
+      Password: <input type="password" [(ngModel)]="model.password" name="password">
+    </label>
+
+    <button type="submit">Sign In</button>
+  </form>
+</section>

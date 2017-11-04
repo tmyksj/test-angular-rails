@@ -1,13 +1,14 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 
-import {AuthenticationTokenComponent} from "./authentication-token/authentication-token.component";
 import {TasksComponent} from "./tasks/tasks.component";
 import {AboutComponent} from "./about/about.component";
+import {TokensComponent} from "./tokens/tokens.component";
 
 const routes: Routes = [
-  { path: '', component: AboutComponent },
-  { path: 'authentication-token', component: AuthenticationTokenComponent },
+  { path: '',   redirectTo: '/about', pathMatch: 'full' },
+  { path: 'about', component: AboutComponent },
+  { path: 'tokens', component: TokensComponent },
   { path: 'tasks', component: TasksComponent }
 ];
 

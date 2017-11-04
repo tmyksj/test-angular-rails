@@ -4,25 +4,29 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AuthenticationTokenComponent } from './authentication-token/authentication-token.component';
 import { TasksComponent } from './tasks/tasks.component';
-import { AuthenticationTokenService } from "./authentication-token.service";
 import { TasksService } from "./tasks.service";
 import { AboutComponent } from './about/about.component';
+import { TokensComponent } from './tokens/tokens.component';
+import {TokensService} from "./tokens.service";
+import {HttpClientModule} from "@angular/common/http";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuthenticationTokenComponent,
     TasksComponent,
-    AboutComponent
+    AboutComponent,
+    TokensComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
-    AuthenticationTokenService,
+    TokensService,
     TasksService
   ],
   bootstrap: [

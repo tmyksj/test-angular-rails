@@ -26,4 +26,13 @@ export class TasksService {
       details: task.details,
     });
   }
+
+  deleteTask(task: Task): Observable<any> {
+    return this.http.delete(this.url, {
+      params: {
+        authentication_token: this.tokensService.getToken(),
+        id: task.id.toString(),
+      }
+    });
+  }
 }

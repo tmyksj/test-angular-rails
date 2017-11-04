@@ -11,6 +11,7 @@ import { TokensComponent } from './tokens/tokens.component';
 import {TokensService} from "./tokens.service";
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
+import {CookieService} from "./cookie.service";
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import {FormsModule} from "@angular/forms";
     FormsModule
   ],
   providers: [
+    CookieService,
     TokensService,
     TasksService
   ],

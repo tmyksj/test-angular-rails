@@ -1,17 +1,14 @@
 import {Injectable, OnInit} from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import {Observable} from "rxjs/Observable";
+import {CookieService} from "./cookie.service";
 
 @Injectable()
-export class TokensService implements OnInit {
+export class TokensService {
   private readonly url: string = 'http://localhost:3000/tokens';
-  private authenticationToken: string;
+  private readonly cookieKey = 'authenticationToken';
 
-  constructor(private http: HttpClient) {
-    this.authenticationToken = null;
-  }
-
-  ngOnInit(): void {
+  constructor(private http: HttpClient, private cookieService: CookieService) {
   }
 
   public authenticate(username: string, password: string): Observable<any> {
@@ -21,25 +18,30 @@ export class TokensService implements OnInit {
     });
 
     observable.subscribe(data => {
-      this.authenticationToken = data['authentication_token'];
+      this.cookieService.setItem(this.cookieKey,
+        data['authentication_token'],
+        31536e3,
+        null,
+        null,
+        null);
     });
 
     return observable;
   }
 
   public getToken(): string {
-    return this.authenticationToken;
+    return this.cookieService.getItem(this.cookieKey);
   }
 
   public deleteToken(): Observable<any> {
     let observable: Observable<any> = this.http.delete(this.url, {
       params: {
-        authentication_token: this.authenticationToken
+        authentication_token: this.getToken()
       }
     });
 
     observable.subscribe(data => {
-      this.authenticationToken = null;
+      this.cookieService.removeItem(this.cookieKey, null);
     });
 
     return observable;

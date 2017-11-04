@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {TokensService} from "../tokens.service";
-import {Router} from "@angular/router";
-import {AuthenticationInfo} from "./authentication-info";
+import { Router } from "@angular/router";
+import { TokensService } from "./shared/tokens.service";
+import { AuthenticationInfo } from "./shared/authentication-info.model";
 
 @Component({
   selector: 'app-tokens',

@@ -1,7 +1,7 @@
-import {Injectable, OnInit} from '@angular/core';
+import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import {Observable} from "rxjs/Observable";
-import {CookieService} from "./cookie.service";
+import { Observable } from "rxjs/Observable";
+import { CookieService } from "../../shared/cookie.service";
 
 @Injectable()
 export class TokensService {
